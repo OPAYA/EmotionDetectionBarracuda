@@ -1,0 +1,14 @@
+{
+    "author": "Jeff",
+    "dependencies": { "com.unity.barracuda": "1.4.0-preview" },
+    "description": "Emotion detection neural network model for Unity Barracuda",
+    "displayName": "EmotionDetection",
+    "keywords": [ "unity" ],
+    "license": "Apache-2.0",
+    "name": "jp.off.mediapipe.emotiondetection",
+    "repository": "github:OPAYA/EmotionDetectionBarracuda",
+    "unity": "2020.3",
+    "unityRelease": "0f1",
+    "version": "1.0.0"
+  }
+  

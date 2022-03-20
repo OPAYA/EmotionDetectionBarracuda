@@ -1,0 +1,11 @@
+Base path: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=1056 file=/Users/juntae/Desktop/EmotionDetectionBarracuda/Packages/jp.off.mediapipe.emotiondetection/Shader/Postprocess.compute kernel=Postprocess cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=2 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=metal flags=4096  error: 2 plat 14 at Postprocess.compute(23): 'all': no matching 1 parameter intrinsic function; Possible intrinsic functions are: all(float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint|bool)
+  error: 2 plat 14 at Postprocess.compute(23): undeclared identifier 'InputSize'
+ ok=0 outsize=0
+
+Cmd: shutdown
+
+Quitting shader compiler process

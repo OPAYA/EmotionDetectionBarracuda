@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94decfc8656e0426ba641a45934dd81d, type: 3}
+  m_Name: EmotionDetection
+  m_EditorClassIdentifier: 
+  model: {fileID: 5022602860645237092, guid: 4a287f8b09d354675be4b6476dd89186, type: 3}
+  preprocess: {fileID: 7200000, guid: 8a653474191664a19a4bad42b9ec20b0, type: 3}
+  postprocess: {fileID: 7200000, guid: 27e6549f08a3b44038ac658fe4240f37, type: 3}
